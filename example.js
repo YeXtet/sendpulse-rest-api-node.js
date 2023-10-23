@@ -17,7 +17,7 @@ var API_SECRET="USER_SECRET";
 var TOKEN_STORAGE="/tmp/";
 
 sendpulse.init(API_USER_ID, API_SECRET, TOKEN_STORAGE, function(token) {
-    if (token && token.is_error) {
+  e  if (token && token.is_error) {
         // error handling
     }
 
